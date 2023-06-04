@@ -1,0 +1,14 @@
+.pie {
+    text-align: center;
+}
+
+.icono-perfiles {
+    color: white;
+    padding: 12px;
+    font-size: 35px;
+}
+
+.icono-perfiles:hover {
+    transition: 0.5s;
+    color: rgb(11, 158, 158);   
+}
