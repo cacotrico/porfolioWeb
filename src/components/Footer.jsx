@@ -1,5 +1,5 @@
 import './styles/Footer.css'
-import { SiLinkedin, SiGithub } from 'react-icons/si';
+import { SiLinkedin, SiGithub, SiInstagram } from 'react-icons/si';
 
 
 function Footer() {
@@ -10,6 +10,9 @@ function Footer() {
       </a>
       <a href='https://github.com/cacotrico' target='_blank' rel='noopener noreferrer'>
         <SiGithub className='icono-perfiles'/>
+      </a>
+      <a href='https://www.instagram.com/cacoc35/' target='_blank' rel='noopener noreferrer'>
+        <SiInstagram className='icono-perfiles'/>
       </a>
     </div>
   )

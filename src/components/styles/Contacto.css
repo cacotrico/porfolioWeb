@@ -1,6 +1,6 @@
 .container-contacto {
     width: 80%;
-    height: 80vh;
+    height: fit-content;
     margin: auto;
     display: flex;
     align-items: center;
@@ -76,4 +76,8 @@ input:hover{
     text-align: center;
     background-color: green;
     border-radius: 10px;
+  }
+
+  .prueba {
+    font-size: 120px;
   }

@@ -51,7 +51,7 @@ const Contacto = () => {
   return (
     <div className='container-contacto'>
       <form onSubmit={handleSubmit} className='formulario'>
-        <div className='camposdecontacto'>         
+        <div className='camposdecontacto'>       
           <label htmlFor="name"></label>
           <input
             type="text"
